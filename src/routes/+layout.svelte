@@ -1,9 +1,9 @@
 <script lang="ts">
     import "../app.css";
-    import Header from "$lib/components/Header.svelte";
+    import NavBar from "$lib/components/NavBar.svelte";
     import Footer from "$lib/components/Footer.svelte";
 </script>
-<Header></Header>
+<NavBar></NavBar>
 <main class="min-h-screen">
     <slot />
 </main>

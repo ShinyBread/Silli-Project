@@ -2,7 +2,7 @@
     import {page} from "$app/stores";
 </script>
 
-<div class="items-center text-center ">
+<div class="items-center text-center p-5 ">
     <ul class="steps">
         <a href="/login" class="step step-primary">Registrarse</a>
         <a 
@@ -19,12 +19,17 @@
 </div>
 
 
-<section class="card w-96 bg-accent text-neutral-content mx-auto">
-    <div class="card-body items-center text-center">
-        <slot></slot>
-    </div>
-</section>
+<div class="flex flex-col items-center justify-center min-h-screen">
+    <section class="card w-full sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/5 min-h-[50rem] bg-accent text-neutral-content mx-auto items-center text-center p-5">
+        <div class="card-body flex items-center justify-center">
+            <slot></slot>
+        </div>
+    </section>
 
-<div class="items-center text-center">
-    <button class="btn btn-secondary"><a href="/.">Volver al Inicio</a></button>
+    <div class="items-center text-center p-5">
+        <button class="btn btn-secondary"><a href="/.">Volver al Inicio</a></button>
+    </div>
 </div>
+
+
+

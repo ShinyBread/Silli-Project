@@ -1,9 +1,9 @@
 <footer class="footer bg-secondary text-neutral-content flex justify-between">
-  <aside class="mx-4 my-4">
+  <div class="mx-4 my-4">
       <p>Tuki ejemplo de login<br/>Hecho por <a href="https://github.com/ShinyBread" class="link link-info">Shiny</a></p>
-  </aside>
+  </div>
   <section class="text-right mx-4">
-      <header class="footer-title text-black my-1">Socials</header>
+      <p class="footer-title text-black my-1">Socials</p>
       <div class="grid grid-flow-col gap-2">
           <a href="https://twitter.com/_ShinyBread_">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">

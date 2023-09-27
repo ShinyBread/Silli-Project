@@ -2,7 +2,7 @@
   <div class="mx-4 my-4">
       <p>Tuki ejemplo de login<br/>Hecho por <a href="https://github.com/ShinyBread" class="link link-info">Shiny</a></p>
   </div>
-  <section class="text-right mx-4">
+  <section class="mx-4">
       <p class="footer-title text-black my-1">Socials</p>
       <div class="grid grid-flow-col gap-2">
           <a href="https://twitter.com/_ShinyBread_">

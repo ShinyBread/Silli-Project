@@ -9,7 +9,7 @@
             <summary>
               Menu
             </summary>
-            <ul class="p-2 bg-accent mt-4">
+            <ul class="p-2 bg-accent top-10">
               <li><a href="/.">Inicio</a></li>
               <li><a href="/about">About</a></li>
             </ul>

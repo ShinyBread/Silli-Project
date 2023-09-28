@@ -3,7 +3,7 @@
     import AnimatedRoute  from "$lib/components/AnimatedRoute.svelte"
 </script>
 
-    <div class="items-center text-center p-5 ">
+    <div class="items-center text-center p-5 outline ">
         <ul class="steps">
             <a href="/login" class="step step-primary">Registrarse</a>
             <a 

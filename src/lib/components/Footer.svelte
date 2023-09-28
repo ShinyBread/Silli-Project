@@ -1,4 +1,4 @@
-<footer class="footer bg-secondary text-neutral-content flex justify-between">
+<footer class="footer bg-secondary text-neutral-content flex justify-between outline">
   <div class="mx-4 my-4">
       <p>Tuki ejemplo de login<br/>Hecho por <a href="https://github.com/ShinyBread" class="link link-info">Shiny</a></p>
   </div>

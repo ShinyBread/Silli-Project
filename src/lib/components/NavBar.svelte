@@ -21,15 +21,15 @@
 </script>
 
 
-<nav id="navbar" class="navbar bg-secondary sticky top-0 z-10">
+<nav id="navbar" class="navbar bg-secondary sticky top-0 z-10 ">
   <div class="flex-1">
-    <p class="btn btn-ghost normal-case text-xl">Tuki</p>
+    <p class="btn btn-ghost normal-case text-2xl text-black drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.0.8)]">Tuki</p>
   </div>
   <div class="relative">
     <ul class="menu menu-horizontal">
       <li>
         <details>
-          <summary>
+          <summary class="text-black">
             Menu
           </summary>
           <ul class="p-2 bg-accent top-10">

@@ -9,7 +9,7 @@
           Sentada en su verde limón,
           Con el pico cortaba la rama,
           Con la rama cortaba la flor.</p>
-      <button class="btn btn-accent"><a href="./login">Acceder al Login</a></button>
+      <button class="btn btn-accent text-black"><a href="./login">Acceder al Login</a></button>
     </div>
   </div>
 </main>

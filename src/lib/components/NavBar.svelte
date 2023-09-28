@@ -1,23 +1,25 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  let opacity: number = 1;
+import { onMount } from 'svelte';
+let opacity: number = 1;
 
-  onMount(() => {
-    const navbar: HTMLElement | null = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-      const scrollHeight: number = window.pageYOffset;
-      const navbarHeight: number = navbar ? navbar.offsetHeight : 0;
-      opacity = 1 - scrollHeight / navbarHeight;
+onMount(() => {
+  const navbar: HTMLElement | null = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    const scrollHeight: number = window.pageYOffset;
+    const navbarHeight: number = navbar ? navbar.offsetHeight : 0;
+    opacity = 1 - scrollHeight / navbarHeight;
 
-      if (opacity < 0) {
-        opacity = 0.85;
-      }
+    if (opacity < 0) {
+      opacity = 0.85;
+    }
 
-      if (navbar) {
-        navbar.style.opacity = opacity.toString();
-      }
-    });
+    if (navbar) {
+      navbar.style.opacity = opacity.toString();
+      navbar.style.transition = 'opacity 0.5s';
+    }
   });
+});
+
 </script>
 
 

@@ -76,7 +76,7 @@
     
         {#if !isValid && isTouched}
           <p class="text-warning text-sm">
-            Asegurate que tenga al menos 3 caracteres y sea alfanumerico!
+            Asegurate que tenga entre 3-16 caracteres y sea alfanumerico!
           </p>
         {/if}
     

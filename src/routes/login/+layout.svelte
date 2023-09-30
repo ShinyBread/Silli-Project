@@ -19,13 +19,13 @@
 
 <AnimatedRoute>
         <div class="flex flex-col items-center justify-center mt-20">
-            <section class="card w-full sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/5 min-h-[40rem] min-w-[40rem] bg-accent text-neutral-content mx-auto items-center text-center p-5">
+            <section class="card h-full sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/5 min-h-[35vw]  bg-accent text-neutral-content mx-auto items-center text-center p-5">
                 <div class="card-body flex items-center justify-center">
                     <slot />
                 </div>
                 
             </section>
-                <button class="btn btn-secondary mt-10"><a href="/login">Volver al Inicio</a></button>   
+                <button class="btn btn-secondary mt-10"><a href="./">Volver al Inicio</a></button>   
         </div>
 </AnimatedRoute>
 

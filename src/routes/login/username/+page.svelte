@@ -4,8 +4,6 @@
 
 </script>
 <AuthCheck>
-    <main>
-        <h1 class="text-xl p-5">Escribe tu nick</h1>
-        <UsernameForm />
-    </main>
+    <h1 class="text-xl p-5">Escribe tu nick</h1>
+    <UsernameForm />
 </AuthCheck>

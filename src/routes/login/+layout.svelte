@@ -3,7 +3,7 @@
     import AnimatedRoute from "$lib/components/AnimatedRoute.svelte";
 </script>
 
-<div class="items-center text-center p-5 bg-opacity-0 outline">
+<div class="items-center text-center mt-10">
     <ul class="steps">
         <li class="step step-primary">Registrarse</li>
         <li class="step"
@@ -18,19 +18,15 @@
 </div>
 
 <AnimatedRoute>
-    <main>
-        <div class="flex flex-col items-center justify-center min-h-screen">
-            <section class="card w-full sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/5 min-h-[50rem] bg-accent text-neutral-content mx-auto items-center text-center p-5">
+        <div class="flex flex-col items-center justify-center mt-20">
+            <section class="card w-full sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/5 min-h-[40rem] min-w-[40rem] bg-accent text-neutral-content mx-auto items-center text-center p-5">
                 <div class="card-body flex items-center justify-center">
                     <slot />
                 </div>
+                
             </section>
-
-            <div class="items-center text-center p-5">
-                <button class="btn btn-secondary"><a href="/login">Volver al Inicio</a></button>
-            </div>
+                <button class="btn btn-secondary mt-10"><a href="/login">Volver al Inicio</a></button>   
         </div>
-    </main>
 </AnimatedRoute>
 
 

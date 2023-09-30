@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<main class="hero min-h-screen">
+<div class="hero min-h-screen">
   <div class="hero-content text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Tuki-Proyecto</h1>
@@ -12,7 +12,7 @@
       <button class="btn btn-accent text-black"><a href="./login">Acceder al Login</a></button>
     </div>
   </div>
-</main>
+</div>
 
 
 

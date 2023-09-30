@@ -1,7 +1,9 @@
 <script>
-    
+    import AuthCheck from "$lib/components/AuthCheck.svelte"
 </script>
 
-<main>
-    <h1>tuki-foto</h1>
-</main>
+<AuthCheck>
+    <main>
+        <h1>tuki-foto</h1>
+    </main>
+</AuthCheck>

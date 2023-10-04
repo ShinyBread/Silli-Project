@@ -6,5 +6,7 @@
 <AuthCheck>
     <h1 class="text-xl p-5">Escribe tu nick</h1>
     <UsernameForm />
-    <button class="btn btn-accent mt-10"><a href="/login">Atras</a></button>
+    <a href="/login">
+        <button class="btn btn-accent mt-10">Atras</button>
+    </a>
 </AuthCheck>

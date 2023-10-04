@@ -10,7 +10,7 @@ onMount(() => {
     opacity = 1 - scrollHeight / navbarHeight;
 
     if (opacity < 0) {
-      opacity = 0.85;
+      opacity = 0.75;
     }
 
     if (navbar) {
@@ -31,7 +31,7 @@ onMount(() => {
     <ul class="menu menu-horizontal">
       <li>
         <details>
-          <summary class="text-black">
+          <summary class="text-black hover:text-primary">
             Menu
           </summary>
           <ul class="p-2 bg-accent top-10">

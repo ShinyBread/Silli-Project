@@ -58,7 +58,7 @@
     <input 
     type="text" 
     placeholder="Tuki ejemplo..." 
-    class="input input-success hover:input-bordered w-full max-w-xs mt-10"
+    class="input input-success hover:input-bordered w-full max-w-xs mt-10 text-info"
     bind:value={username}
     on:input={checkAvailability} 
     class:input-error={(!isValid && isTouched)}
@@ -75,13 +75,13 @@
         {/if}
     
         {#if !isValid && isTouched}
-          <p class="text-warning text-sm">
+          <p class="text-sm">
             Asegurate que tenga entre 3-16 caracteres y sea alfanumerico!
           </p>
         {/if}
     
         {#if isValid && !isAvailable && !loading}
-          <p class="text-green text-sm">
+          <p class="text-sm">
             {username} no esta disponible :c
           </p>
         {/if}

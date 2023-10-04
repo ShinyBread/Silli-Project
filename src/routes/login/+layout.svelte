@@ -4,7 +4,7 @@
 </script>
 
 <div class="items-center text-center text-base-100">
-    <ul class="steps">
+    <ul class="steps p-5">
         <li class="step step-primary">Registrarse</li>
         <li class="step"
             class:step-primary={$page.route.id?.match(/username|tuki-foto/g)}>

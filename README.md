@@ -1,1 +1,1 @@
-<img src="static\Silli banner.psd.png">
+<img src="static\Silli banner.png">

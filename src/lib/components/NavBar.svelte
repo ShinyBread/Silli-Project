@@ -11,6 +11,8 @@ onMount(() => {
 
     if (opacity < 0) {
       opacity = 0.75;
+    } else if (opacity > 1) {
+      opacity = 1;
     }
 
     if (navbar) {
@@ -19,7 +21,6 @@ onMount(() => {
     }
   });
 });
-
 </script>
 
 

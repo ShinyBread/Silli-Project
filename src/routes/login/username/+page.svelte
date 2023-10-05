@@ -4,7 +4,6 @@
 
 </script>
 <AuthCheck>
-    <h1 class="text-xl p-5">Escribe tu nick</h1>
     <UsernameForm />
     <a href="/login">
         <button class="btn btn-accent mt-10">Atras</button>

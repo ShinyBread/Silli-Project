@@ -1,6 +1,6 @@
 <script>
     import { fly } from "svelte/transition";
-    import {page } from "$app/stores"
+    import { page } from "$app/stores"
 </script>
 
 {#key $page.url}

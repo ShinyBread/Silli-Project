@@ -6,6 +6,6 @@
 <AuthCheck>
     <UsernameForm />
     <a href="/login">
-        <button class="btn btn-accent mt-10">Atras</button>
+        <button class="btn btn-accent mt-2">Atras</button>
     </a>
 </AuthCheck>

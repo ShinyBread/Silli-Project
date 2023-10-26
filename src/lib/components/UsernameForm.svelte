@@ -37,10 +37,10 @@
             username,
             photoURL : $user?.photoURL ?? null,
             published : true,
-            bio: ' Tuji ejemplo bio',
+            bio: ' tuki bio ejemplo',
             links:[
                 {
-                    title: ' Link Ejemplo',
+                    title: 'Link Ejemplo',
                     url: 'https://miau.com',
                     icon: 'custom'
                 }
@@ -57,7 +57,7 @@
     Tu nick es <span class="text-success"> {$userData.username}</span>
   </p>
   <a class="mt-20" href="/login/tuki-foto">
-    <button class="btn btn-primary hover:btn-accent">Continuar></button>
+    <button class="btn btn-primary hover:btn-info">Continuar></button>
 </a>      
 {:else}
   <form on:submit|preventDefault={confirmUsername}>

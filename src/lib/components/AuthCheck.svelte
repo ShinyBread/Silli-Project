@@ -1,16 +1,16 @@
 <script lang="ts">
-    import { user } from "$lib/firebase";
-    import { alertAction } from "svelte-legos";
+  import { user } from "$lib/firebase";
+  import { alertAction } from "svelte-legos";
 
-function onClose() {
-  // handle on alert close
-}
+  function onClose() {
+    // handle on alert close
+  }
 
-function onOk() {
-  // handle on ok click
-}
-
+  function onOk() {
+    // handle on ok click
+  }
 </script>
+
 <div class="flex flex-col items-center justify-center text-center">  
     {#if $user}
     <slot />

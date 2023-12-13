@@ -8,6 +8,6 @@
 <AuthCheck>
     <UploadPhotoForm />
     <a href="/login/username">
-        <button class="btn btn-accent mt-10">Atras</button>
+        <button class="btn btn-black hover:btn-warning mt-10">Atras</button>
     </a>
 </AuthCheck>

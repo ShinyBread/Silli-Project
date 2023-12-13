@@ -46,4 +46,4 @@
         {/if}
     </div>
 </form>
-<a {href} class="btn btn-primary"> Terminar </a>
+<a {href} class="btn btn-accent hover:btn-info"> Terminar </a>

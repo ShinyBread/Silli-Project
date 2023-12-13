@@ -1,4 +1,4 @@
-<footer class="footer bg-secondary text-neutral-content flex justify-between">
+<footer class="footer bg-secondary text-black flex justify-between">
   <div class="mx-4 my-4">
       <p>Silli, mini proyecto<br/>Hecho por <a href="https://github.com/ShinyBread" class="link link-info">Shiny</a></p>
   </div>

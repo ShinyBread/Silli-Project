@@ -53,7 +53,7 @@
 </script>
 
 {#if $userData?.username}
-  <p class="text-3xl">
+  <p class="text-3xl mt-20">
     Tu nick es <span class="text-success"> {$userData.username}</span>
   </p>
   <a class="mt-20" href="/login/tuki-foto">

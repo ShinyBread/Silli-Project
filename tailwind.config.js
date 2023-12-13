@@ -6,10 +6,8 @@ module.exports = {
       {
         mytheme: {
           "primary": "#C214A2",
-          "secondary": "#E6C2FA",
-          "accent": "#9613DD",
-          "neutral": "#F4E2FE",
-          "base-100": "#1D022C",
+          "secondary": "#dc3476",
+          "accent": "#e2a457",
           "info": "#3abff8",
           "success": "#36d399",
           "warning": "#fbbd23",
